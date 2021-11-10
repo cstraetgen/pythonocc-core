@@ -70,8 +70,6 @@ class geomlib:
 	@staticmethod
 	def ExtendSurfByLength(Surf: Geom_BoundedSurface, Length: float, Cont: int, InU: bool, After: bool) -> None: ...
 	@staticmethod
-	def FuseIntervals(Interval1: TColStd_Array1OfReal, Interval2: TColStd_Array1OfReal, Fusion: TColStd_SequenceOfReal, Confusion: Optional[float] = 1.0e-9) -> None: ...
-	@staticmethod
 	def GTransform(Curve: Geom2d_Curve, GTrsf: gp_GTrsf2d) -> Geom2d_Curve: ...
 	@staticmethod
 	def Inertia(Points: TColgp_Array1OfPnt, Bary: gp_Pnt, XDir: gp_Dir, YDir: gp_Dir) -> Tuple[float, float, float]: ...
@@ -194,7 +192,6 @@ geomlib_EvalMaxDistanceAlongParameter = geomlib.EvalMaxDistanceAlongParameter
 geomlib_EvalMaxParametricDistance = geomlib.EvalMaxParametricDistance
 geomlib_ExtendCurveToPoint = geomlib.ExtendCurveToPoint
 geomlib_ExtendSurfByLength = geomlib.ExtendSurfByLength
-geomlib_FuseIntervals = geomlib.FuseIntervals
 geomlib_GTransform = geomlib.GTransform
 geomlib_Inertia = geomlib.Inertia
 geomlib_IsBSplUClosed = geomlib.IsBSplUClosed

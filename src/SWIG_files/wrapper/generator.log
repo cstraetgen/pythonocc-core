@@ -2,13 +2,13 @@
 ############################
 Running pythonocc-generator.
 ############################
-git revision : 89de138
+git revision : 80e7c51
 
-operating system : Linux 64bit 5.4.0-73-generic
+operating system : Linux 64bit 5.4.0-89-generic
 
-occt version targeted : 7.5.2
+occt version targeted : 7.5.3
 
-date : 2021-05-27 06:25:50.051164
+date : 2021-11-10 08:28:20.982855
 ############################
 
 [INFO ]  Processing toolkit TKBO ===
@@ -2341,6 +2341,7 @@ date : 2021-05-27 06:25:50.051164
 [INFO ]      [TypeHint] More than 1 constructor, @overload decorator needed.
 [INFO ]  ## Processing module GeomLib
 [INFO ]  GeomLib
+[INFO ]      skipped method GeomLib::efc42f578764e9ffd35ac0aa960924c5
 [INFO ]  GeomLib_Check2dBSplineCurve
 [INFO ]  GeomLib_CheckBSplineCurve
 [INFO ]  GeomLib_CheckCurveOnSurface
@@ -8236,8 +8237,8 @@ date : 2021-05-27 06:25:50.051164
 [INFO ]  UnitsAPI
 [INFO ]  
 #################################################
-SWIG interface file generation completed in 25.84s
+SWIG interface file generation completed in 71.87s
 #################################################
 
 [INFO ]  Number of classes: 4489
-[INFO ]  Number of methods: 45247
+[INFO ]  Number of methods: 45246
